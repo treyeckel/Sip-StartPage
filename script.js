@@ -218,12 +218,12 @@ function loadSettings() {
 
     const defaults = {
         userName: 'Trey',
-        colorScheme: 'catppuccin',
+        colorScheme: 'kanagawa',
         theme: 'dark',
         colorMode: 'multi',
         font: 'jetbrains-mono',
         timeFormat: '12',
-        showSeconds: 'false',
+        showSeconds: 'true',
         tempUnit: 'F',
         showQuotes: 'true',
         leftSettings: 'false',
@@ -232,7 +232,7 @@ function loadSettings() {
         preferredColumns: 'auto',
         enabledEngines: mobile ? ['google'] : ['google', 'duckduckgo', 'github', 'youtube'],
         preferredEngine: 'google',
-        weatherLocation: 'New York,NY,US',
+        weatherLocation: 'Clarksville,TN,US',
         openWeatherApiKey: '',
         linkBehavior: 'same',
         showKeyboardHints: mobile ? 'false' : 'true',

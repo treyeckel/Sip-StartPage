@@ -217,7 +217,7 @@ function loadSettings() {
     const mobile = isMobile();
 
     const defaults = {
-        userName: '',
+        userName: 'Trey',
         colorScheme: 'catppuccin',
         theme: 'dark',
         colorMode: 'multi',
